@@ -22,7 +22,7 @@
             @forelse ($posts as $post)
                 <li>{{ $post }}</li>
             @empty
-                <li>No posts yet!</li>
+                <li>No posts </li>
             @endforelse
         </ul>
     </div>
